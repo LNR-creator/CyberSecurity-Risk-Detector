@@ -1,0 +1,44 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import './styles/custom.css';
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--soc-bg-main, #0b0f19);
+  color: var(--soc-text-primary, #f8fafc);
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Base link and text rules */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Code & Mono Styling */
+code, pre, .font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Custom glassmorphism badge and table tweaks */
+.table {
+  --bs-table-bg: transparent;
+  --bs-table-color: var(--soc-text-primary);
+  --bs-table-border-color: var(--soc-border);
+}

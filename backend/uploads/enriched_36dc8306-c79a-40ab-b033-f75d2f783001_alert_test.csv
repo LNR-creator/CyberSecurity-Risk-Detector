@@ -1,0 +1,3 @@
+source_ip,destination_ip,protocol,source_port,destination_port,packet_count,bytes_transferred,connection_duration,failed_connection_count,_is_anomaly,_anomaly_score,_risk_score,_severity,_detection_reason
+10.0.0.5,198.51.100.45,TCP,50000,4444,500,20000000,10.0,30,0,0.0,47,Medium,Destination port 4444 matches known threat signature: Metasploit default listener / Reverse shell. | Elevated failed connections (30) indicating potential brute force or port scanning. | Substantial data volume (20.00 MB) transferred in single flow.
+10.0.0.6,8.8.8.8,UDP,50001,53,10,400,0.2,0,0,0.0,0,Low,Traffic pattern matches normal operational baseline characteristics.

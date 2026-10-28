@@ -1,0 +1,6 @@
+source_ip,destination_ip,protocol,source_port,destination_port,packet_count,bytes_transferred,connection_duration,failed_connection_count
+192.168.1.10,8.8.8.8,UDP,54321,53,10,500,0.5,0
+192.168.1.15,104.244.42.1,TCP,55000,443,45,15000,2.1,0
+192.168.1.99,198.51.100.45,TCP,49152,4444,1200,9500000,120.5,18
+192.168.1.20,151.101.1.140,TCP,56789,80,25,8000,1.2,0
+192.168.1.22,93.184.216.34,TCP,57123,443,30,12000,1.8,0
